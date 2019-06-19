@@ -52,3 +52,5 @@ RUN cd ~ \
     && composer --version \
     && rm composer-setup.php \
     && docker-php-source delete
+
+RUN composer global require hirak/prestissimo
